@@ -5,14 +5,14 @@ extends javascript's Date object with four new methods designed to assist with h
 toMysqlDate & toMysqlUTCDate methods:
 ```javascript
 var date = new Date();
-date.toMysqlDate('1979-03-28 23:45:37');         // Outputs: '2016-08-28 22:45:37' (String)
-date.toMysqlUTCDate('2013-03-28 11:11:52');      // Outputs: '2016-08-28 19:45:37' (String)
+date.toMysqlDate();         // Outputs: '2016-08-28 22:45:37' (String)
+date.toMysqlUTCDate();      // Outputs: '2016-08-28 19:45:37' (String)
 ```
 
 fromMysqlDate & fromMysqlUTCDate methods:
 ```javascript
-Date.fromMysqlDate();       // Outputs: (Date object)
-Date.fromMysqlUTCDate();    // Outputs: (Date object)
+Date.fromMysqlDate('1979-03-28 23:45:37');       // Outputs: (Date object)
+Date.fromMysqlUTCDate('2013-03-28 11:11:52');    // Outputs: (Date object)
 ```
 
 ## Installtion
