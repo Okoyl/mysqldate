@@ -1,6 +1,6 @@
 {
   "name": "mysqldate",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "MySQL Timestamp support for javascript's Date object.",
   "main": "mysqldate.js",
   "scripts": {
